@@ -12,10 +12,10 @@ public class CrappyLogo extends ClothingDecorator {
     }
 
     public String decorate() {
-        return super.decorate() + decorateWithStripes();
+        return super.decorate() + decorateWithLogo();
     }
 
-    private String decorateWithStripes() {
+    private String decorateWithLogo() {
         return " with a crappy logo";
     }
 
