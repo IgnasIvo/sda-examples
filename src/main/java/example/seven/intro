@@ -1,0 +1,13 @@
+We now have abstracted our consumable objects to a certain point.
+Lets kick it up a notch and fuse our BeerCan with our abstractions.
+
+To make it a little less repeating, lets replace BeerCan with WaterBottle.
+
+What is a water bottle? It's a container that holds a drink.
+
+a drink is a consumable. so is a food. It's quite possible that we may need to hold our food in containers in the future as well.
+
+So a container can hold a consumable.
+A container can be of a certain size.
+
+To achieve this, we will use two more mechanisms - Enumerations and Generics.

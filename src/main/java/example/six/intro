@@ -1,0 +1,20 @@
+Our previous examples have a flaw which was ignored until now.
+
+Hold onto your hats.
+
+Beer is a drink, not a drink.
+
+While both drink and drink are thing we consume, there are differences on how we consume them.
+In our current stage, a watermelon and some nice coca cola would be consumed the same way, and that is just disturbing.
+
+We need to give the classification more options to branch out - we need to make our classes more abstract.
+Abstraction.
+Abstraction is a java mechanism which allows us to specify as little information as possible,
+so that it can be easily replaced with other logic, allowing us to interact with all kinds of objects in a manner that's fit.
+
+We dont need to eat our coca cola or beer. We dont want to drink our watermelon.
+
+Let's try to abstract our foods and drinks as much as we can.
+
+Food and drink are both, first things first, things that we consume. They are Consumable.
+To consume drink, we chew it and then swallow it. To drink a drink, we just need to swallow.
